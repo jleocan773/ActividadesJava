@@ -1,8 +1,13 @@
 public class Imprimir {
+    /**
+     * Hola buenas esto es una prueba de Javadoc me 
+     * Voy a escribir una linea extra para ver si funciona
+     * @param args
+     */
     public static void main(String[]args){
         String saludo = "Hola";
         String nombre = "Jonathan";
-        int edad = 22;
+        int edad = 666;
         int primernum = 2;
         int segunnum = 3;
         float res = 0.67f;
