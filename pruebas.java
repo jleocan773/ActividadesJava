@@ -1,7 +1,6 @@
 public class Pruebas {
     public static void main(String[]args){
         int diasem = 1;
-
         if (diasem == 1)
             System.out.println("Lunes");
         else if (diasem == 2)
