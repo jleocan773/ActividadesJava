@@ -1,10 +1,9 @@
 public class asteriscospiramide  {
         public static void main(String[] args) {
-          int filas = 4;
-          int i;
+          int filas = 8;
           int ast = 0;
 
-          for (i = 1; i <= filas; i++, ast = 0) {
+          for (int i = 1; i <= filas; i++, ast = 0) {
             for (int blanco = 1; blanco <= filas - i; blanco++) {
               System.out.print("  ");
             }
