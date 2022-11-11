@@ -1,22 +1,18 @@
 public class multiplos3y5 {
     //Dado un número n, escribir la suma de todos los mútiplos de 3 y 5 hasta n
   public static void main (String[]args){
-    int n = 4; 
-    int multiplo; 
+    int n = 5; 
+    int i; 
     int multiplicador;
     int suma3 = 0;
     int suma5 = 0;
 
-    for (multiplo = 1,  multiplicador = 3; multiplo <= n; multiplo++){
-        //System.out.println(multiplo3 * multiplicador3);
-        suma3 = suma3 + (multiplo * multiplicador);
-        //System.out.println(suma3);
+    for (i = 1,  multiplicador = 3; i <= n; i++){
+        suma3 = suma3 + (i * multiplicador);
     }
     
-    for (multiplo = 1, multiplicador =5; multiplo <= n; multiplo++){
-        //System.out.println(multiplo3 * multiplicador3);
-        suma5 = suma5 + (multiplo * multiplicador);
-        //System.out.println(suma5);
+    for (i = 1, multiplicador =5; i <= n; i++){
+        suma5 = suma5 + (i * multiplicador);
   }
   System.out.println(suma3 + suma5);
 }
