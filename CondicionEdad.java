@@ -1,4 +1,4 @@
-public class Condicion {
+public class CondicionEdad {
     public static void main(String[] args) {
         int edad = 9;
         if (edad == 7)
