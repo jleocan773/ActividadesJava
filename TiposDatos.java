@@ -5,6 +5,10 @@ public class TiposDatos {
   float decimal;
   double pi;
   boolean paroimpar;
+    
+    /** 
+     * @param String[]args
+     */
     public static void main(String[]args) {
         String nombre = "Jonathan";
         String apellido = "León";

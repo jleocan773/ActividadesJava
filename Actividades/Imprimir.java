@@ -1,4 +1,8 @@
 public class Imprimir {
+    
+    /** 
+     * @param String[]args
+     */
     public static void main(String[]args){
         String saludo = "Hola";
         String nombre = "Jonathan";
